@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Demo</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=DM+Serif+Text|IBM+Plex+Sans:400,400i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <header data-aos="fade-down" data-aos-duration="1700">
+        <h1>Project Title</h1>
+    </header>
+    <div id="section-1" class="section">
+        <div id="text-area-1">
+            <h2 data-aos="zoom-in">About my map.</h2>
+            <div data-aos="zoom-in">
+                <p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Clita kasd gubergren, no sea takimata
+                </p>
+                <p>
+                    Et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit. Et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit.
+                </p>
+            </div>
+        </div>
+        <div data-aos="zoom-in">
+            <p class="viz-title">This is my Choropleth Visualization Title</p>
+            <div id="map" data-aos="fade-up-left" data-aos-duration="1700">
+                <iframe width="100%" height="520" frameborder="0" src="https://thenewschool.carto.com/u/asarm379/builder/df3b11ee-5718-4c30-9b5f-b1027e62dc27/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+            </div>
+            <p class="caption">
+                I’m a caption for this map. Maybe I contain a <a href="">link</a> or <a href="">two</a> to my sources.
+            </p>
+        </div>
+    </div>
+    <div id="section-2" class="section b-grey space-between">
+        <div id="text-area-2" data-aos="zoom-in">
+            <h2>More about my map.</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+            </p>
+            <p>
+                Et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit.
+            </p>
+        </div>
+        <div id="images-section" data-aos="zoom-in">
+            <div class="img-column">
+                <div class="img-container-sm">
+                    <div class="color-block-sm b-yellow"></div>
+                    <img src="images/photo1.jpg" alt="treeline against sky" class="img-small">
+                </div>
+                <div class="img-container-sm">
+                    <div class="color-block-sm b-red"></div>
+                    <img src="images/photo2.jpg" alt="plant growing on wall" class="img-small">
+                </div>
+            </div>
+            <div class="img-container-lg">
+                <div class="color-block-lg b-slate"></div>
+                <img src="images/photo3.jpg" alt="aerial photo of green space" class="img-large">
+            </div>
+        </div>
+    </div>
+    <div id="section-3" class="section b-green">
+        <div class="main-point">
+            <h3 data-aos="zoom-in">Main&nbsp;Point&nbsp;1</h3>
+            <p data-aos="zoom-in">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua diam nonumy eirmod tempor invidunt ut. 
+            </p>
+        </div>
+        <div class="main-point" data-aos="zoom-in">
+            <h3>Main&nbsp;Point&nbsp;2</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua diam nonumy eirmod tempor invidunt ut. 
+            </p>
+        </div>
+        <div class="main-point" data-aos="zoom-in">
+            <h3>Main&nbsp;Point&nbsp;3</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua diam nonumy eirmod tempor invidunt ut. 
+            </p>
+        </div>
+    </div>
+    <footer>
+        <p>Thank you for reading! This tutorial was created as part of the spring 2020 Advanced GIS course at the New School</p>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
